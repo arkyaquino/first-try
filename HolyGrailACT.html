@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity: Holy Forms</title>
+    <link rel="stylesheet" href="./HolyG.css">
+</head>
+
+<body>
+    <header>
+        Header
+    </header>
+
+    <main>
+        <Article>
+            <form>
+            <div class="formbox">
+            
+                <div class="flex-item left">
+
+                    <div class="enter">
+                        <label for="Name">Name</label>
+                        <input type="text" id="firsname">
+                    </div>
+
+                    <div class="enter">
+                        <label for="phone"></label>Phone </label>
+                        <input type="text" id="phone">
+                    </div>
+ 
+                    <div class="enter">
+                        <label for="email">Email</label>
+                        <input type="email" id="email">
+                    </div>
+
+                    <div class="enter">
+                        Pickup Date/Time
+                        <input type="datetime-local" name="daytime" id="">          
+                    </div>
+
+                    <div class="enter">
+                        <label for="dropdown">Pickup Place</label>
+                        <select name="dropdown" id="dropdown">
+
+                            <option selected disabled>
+                                Select One
+                            </option>
+                                <option value="ML">Manila</option>
+                                <option value="QC">Quezon City</option>
+                                <option value="TG">Taguig</option>
+                        </select>
+                    </div>
+
+                    <div class="enter">
+                        <label for="dropoffPlace">Dropoff Place</label>
+                        <input type="text" id="dropoffPlace">
+                    </div>
+                </div>
+
+
+
+                <div class="flex-item right">
+                    Which vehicle do you require?<br>
+                    <input type="radio" name="vehicle" id="van" value="van">
+                    <label for="van">Van</label><br>
+
+                    <input type="radio" name="vehicle" id="jeepney" value="jeepney">
+                    <label for="jeepney">Jeppney</label> <br>
+
+                    <input type="radio" name="vehicle" id="tricycle" value="tricycle">
+                    <label for="tricycle">Tricylce</label>
+
+                    <br><br>
+                    Extras: <br>
+                        <input type="checkbox" name="extra" id="babySeat">
+                        <label for="babySeat">Baby Seat</label> <br>
+
+                        <input type="checkbox" name="extra" id="wa">
+                        <label for="wa">Wheelchair Access</label> <br>
+
+                        <input type="checkbox" name="extra" id="st">
+                        <label for="st">Stock Tip</label> <br> 
+                 </div>
+
+
+          
+                
+
+            </div>
+
+            <div class="btn-container">
+                <input type="submit" value="Submit Booking">
+            </div>
+
+
+
+            </form>
+            </div>
+        </Article>
+
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+
+    </main>
+    <footer>Footer</footer>
+
+    
+</body>
+</html>

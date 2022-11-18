@@ -1,0 +1,93 @@
+* {box-sizing: border-box;}
+
+header, 
+footer {
+    height: 10vh;
+    background-color: rgb(106, 207, 106);
+    padding: 15px;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+}
+
+nav,
+aside {
+    width: 20%;
+    padding: 15px;
+}
+nav {
+    background-color:rgb(102, 208, 188);
+}
+aside {
+    background-color: rgb(247, 239, 207);
+}
+
+header,
+aside,
+nav,
+footer {
+    font-weight: bold;
+}
+
+article {
+    width: 60%;
+    padding: 15px;
+    
+
+}
+body {
+    margin: 0;
+}
+
+.formbox {
+    display: flex;
+    column-gap: 30px;
+}
+
+.flex-item.left {
+    width: 60%;
+    
+}
+
+.flex-item.right {
+    width: 40%;
+}
+
+.enter {
+    display: flex;
+    
+}
+.enter input, select {
+    flex: 2;
+    margin: 6px;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-container input {
+    color: white;
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 15px;
+    background-color: rgb(131, 131, 131);
+
+} 
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 20px;
+    height: 90%;
+    background-color: rgb(247, 239, 207);
+}
